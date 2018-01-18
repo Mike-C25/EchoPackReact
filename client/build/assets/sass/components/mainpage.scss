@@ -1,0 +1,42 @@
+@import '../variable-mixins/color';
+
+section.content {
+    .main-content {
+        width: 78%;
+        height: 100%;
+        border-right: 1px;
+        min-height: 1400px;
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+    a {
+        display: block;
+
+        &:visited {
+            color: $drk-bl;
+        }
+    }
+
+    .container {
+        // border: 1px solid #cdcdcd;
+        position: relative;
+        &.clean {
+            border: none;
+        }
+    }
+    button {
+        display: block;
+        color: rgba(black, .9);
+        transition: all .25s ease-in-out;
+        font-size: 12px;
+        padding: 5px 10px;
+        cursor: pointer;
+        background: white;
+        border: 1px solid #cdcdcd;
+        &:hover {
+            color: $r;
+            border: 1px solid $r;
+        }
+    }
+}
