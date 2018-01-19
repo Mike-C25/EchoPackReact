@@ -21,4 +21,4 @@ ___
 + MySQL(Sequelize ORM)
 ___
 
-To see the live site click [Here](https://echopacked.herokuapp.com/)
+To see the live site click [Here](https://echopack2.herokuapp.com/)
